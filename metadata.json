@@ -1,6 +1,6 @@
 {
   "name": "puppetlabs-secure_env_vars",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "author": "Puppet",
   "summary": "Run a command or script with sensitive environment variables.",
   "license": "Apache-2.0",
@@ -83,7 +83,7 @@
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.10.0 < 7.0.0"
+      "version_requirement": ">= 4.10.0 < 8.0.0"
     }
   ],
   "pdk-version": "1.18.1",

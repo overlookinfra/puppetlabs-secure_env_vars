@@ -20,7 +20,7 @@ jobs:
         uses: actions/setup-ruby@v1
         with:
           ruby-version: '2.5.x'
-      - name: Install dependencies
+      - name: Install gem dependencies
         run: |
           gem install bundler
           bundle config path vendor/bundle
